@@ -73,9 +73,13 @@ This file contains the routes for managing posts, and it is registered as a blue
 
 To run the app locally, simply execute the following command:
 
+**Using Bash**
+
 - git clone <repository-url>
 - python -m venv venv
 - source venv/Scripts/activate
-- pip install
+- pip install -r requirements.txt
+- pip install flask
 - Create .env and Add necessary environment variables.
+  Database URL Format - (DATABASE_URL=postgresql://<username>:<password>@<host>:<port>/<database_name>)
 - python app.py
